@@ -1,0 +1,188 @@
+/*
+ * Globals
+ */
+
+body {
+  font-family: "Trajan Pro";
+  color: #999A9A;
+  width: 70%;
+  margin: auto;
+  background-image: url("http://i.imgur.com/9lu9txo.jpg");
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-top: 0;
+  font-family: "Trajan Pro";
+  font-weight: normal;
+  color: #777878;
+}
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  background-color: #BBBCBC;
+  opacity: 0.9;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #456AB4;
+}
+
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+/*
+ * Blog name and description
+ */
+
+.container {
+  background: #eee;
+  border: 2px solid #ddd;
+  padding: 30px;
+}
+
+.profile-image {
+  padding: 30px;
+  margin: auto;
+}
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+  padding-left: 30px;
+  display: inline-block;
+}
+
+.blog-description {
+  font-size: 20px;
+  color: #999;
+  padding-left: 30px;
+}
+
+/*
+ * Social Media Sidebar
+ */
+
+.social-media-header {
+  text-align: right;
+  display: inline-block;
+  padding left: 100px;
+}
+
+.social-media {
+  font-size: 20px;
+  text-align: right;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.social-media-sidebar {
+  float: right;
+  padding: 20px;
+}
+
+/*
+ * Main column layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/*
+ * Blog posts
+ */
+
+ .row{
+  clear: left;
+ }
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+.column {
+  padding: 20px;
+  width: 40%;
+  float: left;
+}
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 10px 0;
+  color: #999;
+  text-align: center;
+  clear: left;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+/*
+ * Custom hr styles
+ */
+
+hr.style1 {
+  height: 20px;
+  border: 0;
+  box-shadow: 0 15px 15px -15px #8c8b8b inset;
+  clear: left;
+}
+
+hr.style2 {
+  border-top: 3px solid #8c8b8b;
+  border-bottom: 3px solid #fff;
+  clear: left;
+}
+
+/* Allows lists to be adjecent */
+ul {
+  float: left;
+}
